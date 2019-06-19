@@ -28,6 +28,7 @@ export class ShoppingEditComponent implements OnInit, OnDestroy {
             name: this.editedItem.name,
             amount: this.editedItem.amount,
         });
+        console.log('edit');
       }
     );
   }
